@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Topo */
+
+.section-topo {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.container-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px;
+}
+
+.link-titulo {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.texto-azul {
+    color: rgb(64, 120, 204);
+}
+
+.lista-links {
+    display: flex;
+    gap: 30px;
+}
+
+.lista-links a {
+    text-decoration: none;
+}
+
+/* Conteúdo */
+
+.imagem-background {
+    width: 100%;
+    height: 200px;
+    background-image: url("../assets/img-fundo.jpg");
+    background-size: cover;
+}
+
+.container-conteudo {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.container-conteudo h2 {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.container-quartos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.card-quarto {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    max-width: 400px;
+}
+
+.card-quarto img {
+    max-height: 250px;
+}
+
+.container-info-quartos {
+    max-width: 1024px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.container-info-quartos h3 {
+    text-align: center;
+}
+
+.container-info-quartos ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.container-info-quartos ul li {
+    width: 230px;
+    text-align: left;
+}
+
+/* Rodape */
+
+.section-rodape {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(62, 150, 113, 0.986);
+}
+
+.container-largura {
+    max-width: 1024px;
+    margin: auto;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container-dados {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+
+    margin-top: 30px;
+}
+
+.card-contato {
+    display: flex;
+    gap: 10px;
+}
+
+.card-contato h3 {
+    font-size: 24px;
+}
+
+.card-contato a {
+    text-decoration: none;
+}
+
+.container-paragrafo {
+    text-align: center;
+}
